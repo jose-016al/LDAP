@@ -14,7 +14,7 @@ uid: Sara
 sn: garcia alonso
 cn: Saraga
 l: Leon
-birthYear: 1989
+# birthYear: 1989
 
 # Astronauta Pablo en la ud.organizativa astronautas
 dn: uid=Pabloaf,ou=astronautas,dc=ejemplo,dc=com
@@ -26,7 +26,7 @@ uid: Pablo
 sn: alvarez fernandez
 cn: Pabloaf
 l: Leon
-birthYear: 1988
+# birthYear: 1988
 
 # Astronauta Samantha en la ud.organizativa astronautas
 dn: uid=Samanthac,ou=astronautas,dc=ejemplo,dc=com
@@ -38,7 +38,7 @@ uid: Samantha
 sn: cristoforetti
 cn: Samanthac
 l: Milan
-birthYear: 1977
+# birthYear: 1977
 
 # Unidad organizativa instrumentos
 dn: ou=instrumentos,dc=ejemplo,dc=com
@@ -51,33 +51,36 @@ dn: uid=Perseverance,ou=instrumentos,dc=ejemplo,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
+objectClass: inetOrgPerson
 uid: perseverance
 sn: Perseverance
 cn: Perseverance
-maximumSpeed: 0.12
-height: 2.2
-energy: 110
+# maximumSpeed: 0.12
+# height: 2.2
+# energy: 110
 
 # Instrumento Curiosity en la ud.organizativa instrumentos
 dn: uid=Curiosity,ou=instrumentos,dc=ejemplo,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
+objectClass: inetOrgPerson
 uid: curiosity
 sn: Curiosity 
 cn: Curiosity
-maximumSpeed: 90
-height: 2.7
-energy: 110
+# maximumSpeed: 90
+# height: 2.7
+# energy: 110
 
 # Instrumento Spirit en la ud.organizativa instrumentos
 dn: uid=Spirit,ou=instrumentos,dc=ejemplo,dc=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
+objectClass: inetOrgPerson
 uid: spirit
 sn: Spirit
 cn: Spirit
-maximumSpeed: 5
-height: 1.5
-energy: 140
+# maximumSpeed: 5
+# height: 1.5
+# energy: 140
